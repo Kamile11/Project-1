@@ -20,7 +20,7 @@ Programa išvedą studentų vardus ir pavardes bei studentų galutinius pažymiu
 3. Funkcijos, nauji duomenų tipai buvo perkelti į antraštinius (header) failus, bei sukurti trys nauji .cpp failai.
 4. Minimaliai panaudotas išimčių valdymas.
 
-## Ketvirtoji užduotis v0.4
+# Trečioji užduotis v0.3 #
 Šioje versijoje yra apskaičiuojamas studento ar studentų galutinis įvertinimas;
 
 - - - 
@@ -29,7 +29,29 @@ Programa išvedą studentų vardus ir pavardes bei studentų galutinius pažymiu
 2. Studentai yra surušiuojami į dvi grupes; vargšiukai ( x>5 ) ir gudročiai ( x<5 ).
 3. Studentai atspausdinami į du skirtingus failus.
 
+# Ketvirtoji užduotis v0.4 #
+
+- - - 
+## Veikimo principas ##
+Šioje versijoje yra apskaičiuojamas studento ar studentų galutinis įvertinimas;
+1. Buvo sukurtos dvi atskiros programos su dviejais skirtingais konteineriais: vector, list.
+2. Buvo atlikti laiko matavymai šių dvieju konteinerių spartumo.
+3. Laiko matavimai:
+
+|        |              | 1000         | 10000        | 100000      | 1000000    |
+|--------|--------------|--------------|--------------|-------------|------------|
+| Vector | Nuskaitymas  | 0.00071426 s | 0.0046599 s  | 0.0524893 s | 0.833517 s |
+|        | Isskirstymas | 0.00017619 s | 0.00187795   | 0.01768 s   | 0.442079 s |
+| List   | Nuskaitymas  | 0.00068584 s | 0.00538527 s | 0.0978146 s | 1.08923 s  |
+|        | Isskirstymas | 0.00017354 s | 0.00249038 s | 0.018878 s  | 0.331265 s |
+
+Analizė: 
+Greičiausias suskirstymas studentu į skirtingus konteinerius - vector;
+Greičiausias failo nuskaitymas ir suskaičiavimas - List;
+
 ### Versijos ###
 *[v0.1](https://github.com/Kamile11/Project-1.git) - pirminė programos versija.
-*[v0.2]
+*[v0.2] 
 *[v0.3]
+*[v0.4]
+
