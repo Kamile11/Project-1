@@ -41,6 +41,7 @@ void rezultatai(data& a);
 void fskaitymas(data& a, int& n, vector<data>& sarasas, vector<data>& kietiakai, vector<data>& vargsiukai);
 void firasimas(data& a, int& n, vector<data>& sarasas);
 void generacija(std::stringstream& my_buffer, int& n, int& s);
+bool mazvidurkis(const data& a);
 
 //---
 
